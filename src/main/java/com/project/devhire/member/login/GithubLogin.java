@@ -1,4 +1,4 @@
-package com.project.devhire.login;
+package com.project.devhire.member.login;
 
 import com.project.devhire.common.HttpConnection;
 import org.springframework.stereotype.Controller;
@@ -19,7 +19,7 @@ public class GithubLogin {
 
     @RequestMapping(value = "/loginPage")
     public String loginPage(){
-        return "loginPage";
+        return "member/login/loginPage";
     }
 
     @RequestMapping(value = "/githubLogin", method = RequestMethod.GET)
