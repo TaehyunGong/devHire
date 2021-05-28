@@ -16,18 +16,9 @@ public class mainController {
 		
 		ModelAndView mav = new ModelAndView();
 		
-		mav.setViewName("test");
+		mav.setViewName("main/main");
 		
 		return mav;
 	}
 	
-	@RequestMapping("/layout")
-	public ModelAndView layout() {
-		
-		ModelAndView mav = new ModelAndView();
-		
-		mav.setViewName("layout/default-layout");
-		
-		return mav;
-	}
 }
